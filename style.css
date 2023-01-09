@@ -1,0 +1,64 @@
+*{
+margin: 0px;
+border: 0px;
+padding: 0;
+box-sizing: border-box ;
+}
+
+.contenedor-general{
+    max-width: 1280px;
+    max-height: 720px;
+    display: grid;
+}
+
+.menu-contenedor{
+    background-color: blue;
+    height: 20vh;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 5%;
+    padding: 0 5% 0 5%;
+}
+
+/*---------- Caja del logo ----------*/
+.menu-logo{
+    background-color: gray;
+}
+
+/*---------- Caja de los links ---------*/
+.menu-links{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 3%;
+    background-color: gray;
+}
+
+/*---------- caja para botón login/sign up o lo que sea ----------*/
+.menu-boton-login{
+    background-color: gray;
+}
+
+
+.contenedor1{
+    background-color: blueviolet;
+    height: 80vh;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 5fr 1fr 1fr
+}
+
+.contenedor2{
+    justify-self: center;
+    background-color: brown;
+    width: 86vw;
+    height: 50vh;
+}
+
+
+
+
+
+
+
