@@ -53,7 +53,7 @@ box-sizing: border-box ;
     justify-self: center;
     background-color: brown;
     width: 86vw;
-    height: 50vh;
+    height: 80vh;
     padding: 20px;
 }
 
@@ -84,12 +84,26 @@ box-sizing: border-box ;
     column-gap: 2%;
 }
 
-
-.contenedor2-2-container1{
-
+.contenedor3{
+    background-color: rgb(36, 16, 55);
+    width: 100vw;
+    height: 60vh;
+    padding-top:30px;
 }
 
+.contenedor3-3{
+    background-color: rgb(170, 136, 202);
+    width: 90vw;
+    height: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
 
+.contenedor3-3-mini{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 5%;
+}
 
 
 
