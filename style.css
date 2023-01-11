@@ -54,9 +54,40 @@ box-sizing: border-box ;
     background-color: brown;
     width: 86vw;
     height: 50vh;
+    padding: 20px;
+}
+
+.contenedor2-2{
+    justify-self: center;
+    background-color: rgb(161, 73, 73);
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 1fr 3fr;
+}
+
+.contenedor2-2_h2-1{
+    grid-row: 1/2;
+}
+
+.contenedor2-2 p{
+    grid-row: 2/3;
+}
+
+.contenedor2-2_h2-2{
+    grid-row: 3/4;
+}
+
+.contenedor2-2-container{
+    grid-row: 4/5;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2%;
 }
 
 
+.contenedor2-2-container1{
+
+}
 
 
 
