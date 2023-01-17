@@ -149,3 +149,114 @@ box-sizing: border-box ;
     row-gap: 20px;
 }
 
+/*---------- CONTENEDOR 5 ----------*/
+
+.contenedor5{
+    background: black;
+    height: 200vh;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.contenedor5-5{
+    background: rgb(33, 33, 33);
+    height: 173vh;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor5-5-titulo{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+
+.contenedor5-5-tablas_margen{
+    background: rgb(43, 42, 42);
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor5-5-tablas{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+/*---------- CONTENEDOR 6 ----------*/
+
+.contenedor6{
+    padding-top: 130px;
+}
+
+.contenedor6-6{
+    background: blue;
+    width: 90vw;
+    height: 116vh;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor6-6-principal{
+    background: rgb(15, 15, 184);
+    margin-bottom: 140px;
+    height: 100vh;
+    padding: 24px;
+    border-radius: 4%;
+}
+
+.contenedor6-6-detallado{
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    justify-self: center;
+    grid-auto-rows: 2fr 1fr 8fr;
+}
+
+.contenedor6-6-detallado-logos{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+/*---------- CONTENEDOR 7 ----------*/
+
+.contenedor7{
+    padding-top: 120px;
+    padding-bottom: 120px;
+    background: rgb(41, 15, 15);
+    height: 80vh;
+}
+
+.contenedor-7-itemss-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 2px;
+}
+
+/*---------- FOOTER ----------*/
+
+.contenedor-footer{
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+}
+
+.contenedor-footer-1{
+    width: 86vw;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contenedor-footer-logo{
+    width: 100%;
+    margin-bottom: 56px;
+}
+
+.contenedor-footer-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
